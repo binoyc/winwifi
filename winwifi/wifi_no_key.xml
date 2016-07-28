@@ -1,0 +1,23 @@
+<ns0:WLANProfile xmlns:ns0="http://www.microsoft.com/networking/WLAN/profile/v1" xmlns:ns1="http://www.microsoft.com/networking/WLAN/profile/v3">
+	<ns0:name>binoy</ns0:name>
+	<ns0:SSIDConfig>
+		<ns0:SSID>
+			<ns0:hex>62696E6F79</ns0:hex>
+			<ns0:name>binoy</ns0:name>
+		</ns0:SSID>
+	</ns0:SSIDConfig>
+	<ns0:connectionType>ESS</ns0:connectionType>
+	<ns0:connectionMode>auto</ns0:connectionMode>
+	<ns0:MSM>
+		<ns0:security>
+			<ns0:authEncryption>
+				<ns0:authentication>open</ns0:authentication>
+				<ns0:encryption>none</ns0:encryption>
+				<ns0:useOneX>false</ns0:useOneX>
+			</ns0:authEncryption>
+		</ns0:security>
+	</ns0:MSM>
+	<ns1:MacRandomization>
+		<ns1:enableRandomization>false</ns1:enableRandomization>
+	</ns1:MacRandomization>
+</ns0:WLANProfile>
